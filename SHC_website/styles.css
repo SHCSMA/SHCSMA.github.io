@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body {
+scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+ 
+ }
+
+
+.header {
+    background-color: #363636;
+    color: white;
+    height: 80px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 300px auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+    position: fixed;
+    right: 0;
+    left: 0;
+   
+  
+}   
+ 
+.name {
+    margin-top: 35px;
+    font-size: 1.4rem;  
+    
+}
+    
+  
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #4B4E61;
+
+}
+
+.links a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+ 
+}
+
+.shc {
+    color: #FC6A03;
+    padding-left: 10px;
+      
+    
+}
+
+#home .banner {
+
+  height: 600px;
+  
+   
+    
+}
+
+#home .banner img {
+   width: 100%;  
+   height: 600px;
+    
+}
+
+
+#about {
+    background-color: lightblue;
+    color: #232023;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 40px; 20px;
+    padding-bottom: 50px;
+    
+    
+}
+
+#about .description {
+    margin: auto;
+    max-width: 950px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+#baking {
+    background-color: #222021;
+    color: white;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+    
+    
+}
+
+#baking .description {
+    margin: auto;
+    max-width: 950px;
+    padding-top: 30px;
+}
+
+#baking #gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2em;
+    
+}
+
+#baking div {
+    margin-bottom: 6px;
+ 
+}
+
+#travel {
+    background-color: #2D303A;
+    color: white;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+}
+
+#travel .description {
+    margin: auto;
+    max-width: 950px;
+    padding-top: 30px;
+}
+
+
+#travel #gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2em;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+
+
+  #modeling {
+    background-color: #222021;
+    color: white;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+   
+    
+      
+}
+
+#modeling .description {
+    margin: auto;
+    max-width: 950px;
+    padding-top: 30px;
+}   
+  
+#modeling #gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+        
+} 
+
+#footer {
+    color: #FC6A03;
+    background-color: #363636;
+    font-size: 0.7em;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+ 
+}
+
+#footer .text {
+    display: grid;
+    grid-template-columns: 65% auto;
+    max-width: 950px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+.name {
+    grid-column: 1/3;
+    margin-top: 10px;
+    text-align: center;
+    }    
+    
+.links {
+     grid-column: 1/3;
+     margin-top: 10px;
+     text-align: center;
+        
+    }  
